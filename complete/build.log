@@ -1,0 +1,73 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.example:serving-web-content-complete[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding serving-web-content-complete 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:3.5.0:clean[m [1m(default-clean)[m @ [36mserving-web-content-complete[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/ubuntu/gs-serving-web-content/complete/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mserving-web-content-complete[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.14.1:compile[m [1m(default-compile)[m @ [36mserving-web-content-complete[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;34mINFO[m] Compiling 2 source files with javac [debug parameters release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mserving-web-content-complete[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/gs-serving-web-content/complete/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.14.1:testCompile[m [1m(default-testCompile)[m @ [36mserving-web-content-complete[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:3.5.5:test[m [1m(default-test)[m @ [36mserving-web-content-complete[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.example.servingwebcontent.[1mServingWebContentApplicationTest[m
+14:40:53.352 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.servingwebcontent.ServingWebContentApplicationTest]: ServingWebContentApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:40:53.488 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.servingwebcontent.ServingWebContentApplication for test class com.example.servingwebcontent.ServingWebContentApplicationTest
+14:40:53.494 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.servingwebcontent.ServingWebContentApplicationTest]: ServingWebContentApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:40:53.520 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.servingwebcontent.ServingWebContentApplication for test class com.example.servingwebcontent.ServingWebContentApplicationTest
+14:40:53.614 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-06-22T14:40:54.034Z  INFO 7662 --- [           main] c.e.s.ServingWebContentApplicationTest   : Starting ServingWebContentApplicationTest using Java 21.0.11 with PID 7662 (started by ubuntu in /home/ubuntu/gs-serving-web-content/complete)
+2026-06-22T14:40:54.038Z  INFO 7662 --- [           main] c.e.s.ServingWebContentApplicationTest   : No active profile set, falling back to 1 default profile: "default"
+2026-06-22T14:40:54.743Z  INFO 7662 --- [           main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-06-22T14:40:55.026Z  INFO 7662 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-06-22T14:40:55.027Z  INFO 7662 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-06-22T14:40:55.030Z  INFO 7662 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-06-22T14:40:55.058Z  INFO 7662 --- [           main] c.e.s.ServingWebContentApplicationTest   : Started ServingWebContentApplicationTest in 1.456 seconds (process running for 2.664)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.043 s -- in com.example.servingwebcontent.[1mServingWebContentApplicationTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 3, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:3.4.2:jar[m [1m(default-jar)[m @ [36mserving-web-content-complete[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/ubuntu/gs-serving-web-content/complete/target/serving-web-content-complete-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot:4.0.6:repackage[m [1m(repackage)[m @ [36mserving-web-content-complete[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact /home/ubuntu/gs-serving-web-content/complete/target/serving-web-content-complete-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[[1;34mINFO[m] The original artifact has been renamed to /home/ubuntu/gs-serving-web-content/complete/target/serving-web-content-complete-0.0.1-SNAPSHOT.jar.original
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.081 s
+[[1;34mINFO[m] Finished at: 2026-06-22T14:40:57Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
